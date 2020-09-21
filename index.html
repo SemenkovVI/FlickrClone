@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Image app</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body>
+    <div class="image-app-container"> 
+      <header>
+        <button class="btn logout">logout</button>
+      </header>
+
+      <div class="authorization-window">
+        <div class="form-control">
+          <label>E-mail</label>
+          <input type="text" placeholder="Your's email" class="email" />
+          <small>Error message</small>
+        </div>
+
+        <div class="form-control">
+          <label>Password</label>
+          <input type="password" placeholder="Password" class="password" />
+          <small>Error message</small>
+        </div>
+
+        <button class="btn login">Sign in</button>
+      </div>
+
+      <main class="image-app-container__main-container">
+        <div class="main-container__albums"></div>
+      </main>
+    </div>
+    <script src="image.js"></script>
+  </body>
+</html>
